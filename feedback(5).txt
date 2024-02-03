@@ -1,0 +1,100 @@
+Hi, this is Linda He, looking at your Assignment A6.
+
+At the end of this document is the output of our autograder testing program.
+This grading feedback is designed to help you understand how you can improve your
+assignment. The final score will be out of 85 points.
+----------------------------
+
+General Comments:
+-----------------
+Style:
+1 point deducted: did not remove or comment out all pass statements.
+1 point deducted: did not remove or comment out all print statements.
+
+conflictsWith:
+2 points deducted: did not properly check if days overlap. In this function,
+say the days of self are TF and other is MWF. Friday is an overlapping day.
+Then, the function will check that Tuesday is not in other, so it goes into
+Monday, sees that Monday is not in the keys of self, and returns False despite
+there being an overlap.
+
+changeTime:
+2 points deducted: should not append warnings when the time succesfully changes.
+
+Rubric:
+-------
+
+Comment Headers: 1/1
+Style: 0/2
+Explanation of time handling: 5/5
+Schedule add: 10/10
+    Control Flow: 2/2
+    Functionality: 8/8
+StudentSchedule add: 16/16
+    Control Flow: 6/6
+    Functionality: 10/10
+Course init: 3/3
+Helper functions: 4/4
+getTime: 5/5
+conflictsWith: 18/20
+changeTime: 17/19
+
+Total: 79/85
+
+===========
+
+Warning: The time of this course is still TBA
+Warning: The time of this course is still TBA
+Warning: The time of this course is still TBA
+Warning: The time of this course is still TBA
+Warning: The time of this course is still TBA
+Warning: The time of this course is still TBA
+Warning: The time of this course is still TBA
+Warning: The time of this course is still TBA
+Start grading of a6.py
+
+Max points for schedule.add function: 16
+Finished schedule.add function
+
+Max points for studentschedule.add function: 27
+Finished studentschedule.add function
+
+Max points for course.getTime function: 14
+Finished course.getTime function
+
+Max points for course.conflictsWith function: 22
+  7. Courses only conflict on one day student code returns: False
+ but correct answer should be: 
+True. 1 point deducted.
+  8. Courses only conflict on one day student code returns: False
+ but correct answer should be: 
+True. 1 point deducted.
+Finished course.conflictsWith function
+
+Max points for course.changeTime function: 10
+  2.4 same schedule warnings student code returns: {'ARCH 1120 STU 520: time change causes conflict with INFO 2450 LEC 001', 'ARCH 1120 STU 520: time changed from TBA to TR 10:10am-11:00am'}
+ but correct answer should be: 
+{'ARCH 1120 STU 520: time changed from TBA to TR 10:10am-11:00am'}. 0.5 points deducted.
+  3.3 same student schedule warnings student code returns: {'ARCH 1120 STU 520: time changed from TBA to TR 10:10am-11:00am', 'ENGL 2650 SEM 101: time changed from TR 11:25am-12:40pm to TR 9:05am-9:55am'}
+ but correct answer should be: 
+{'ARCH 1120 STU 520: time changed from TBA to TR 10:10am-11:00am', 'ENGL 2650 SEM 101: time change causes conflict with CS 1110 LEC 001', 'ENGL 2650 SEM 101: time changed from TR 11:25am-12:40pm to TR 9:05am-9:55am'}. 0.5 points deducted.
+  3.4 same schedule warnings student code returns: {'ARCH 1120 STU 520: time change causes conflict with INFO 2450 LEC 001', 'ARCH 1120 STU 520: time changed from TBA to TR 10:10am-11:00am', 'ENGL 2650 SEM 101: time change causes conflict with CS 1110 LEC 001', 'ENGL 2650 SEM 101: time changed from TR 11:25am-12:40pm to TR 9:05am-9:55am', 'ENGL 2650 SEM 101: time change causes conflict with INFO 2450 LEC 001'}
+ but correct answer should be: 
+{'ARCH 1120 STU 520: time changed from TBA to TR 10:10am-11:00am', 'ENGL 2650 SEM 101: time changed from TR 11:25am-12:40pm to TR 9:05am-9:55am'}. 0.5 points deducted.
+  4.3 same student schedule warnings student code returns: {'ARCH 1120 STU 520: time changed from TBA to TR 10:10am-11:00am', 'HAHA 1010 LEC 101: time changed from TR 1:00pm-1:55pm to TR 9:05am-1:50pm', 'ENGL 2650 SEM 101: time changed from TR 11:25am-12:40pm to TR 9:05am-9:55am', 'Could not add FAKE 0000 SEM 000 due to conflict with ARCH 1120 STU 520'}
+ but correct answer should be: 
+{'Could not add FAKE 0000 SEM 000 due to conflict with ARCH 1120 STU 520', 'ARCH 1120 STU 520: time changed from TBA to TR 10:10am-11:00am', 'HAHA 1010 LEC 101: time change causes conflict with ENGL 2650 SEM 101', 'HAHA 1010 LEC 101: time change causes conflict with ARCH 1120 STU 520', 'HAHA 1010 LEC 101: time changed from TR 1:00pm-1:55pm to TR 9:05am-1:50pm', 'HAHA 1010 LEC 101: time change causes conflict with CS 1110 LEC 001', 'ENGL 2650 SEM 101: time change causes conflict with CS 1110 LEC 001', 'HAHA 1010 LEC 101: time change causes conflict with FAKE 0000 SEM 000', 'ENGL 2650 SEM 101: time changed from TR 11:25am-12:40pm to TR 9:05am-9:55am'}. 0.5 points deducted.
+  4.4 same schedule warnings student code returns: {'ARCH 1120 STU 520: time change causes conflict with INFO 2450 LEC 001', 'ARCH 1120 STU 520: time changed from TBA to TR 10:10am-11:00am', 'HAHA 1010 LEC 101: time change causes conflict with ENGL 2650 SEM 101', 'HAHA 1010 LEC 101: time change causes conflict with ARCH 1120 STU 520', 'HAHA 1010 LEC 101: time changed from TR 1:00pm-1:55pm to TR 9:05am-1:50pm', 'HAHA 1010 LEC 101: time change causes conflict with INFO 2450 LEC 001', 'HAHA 1010 LEC 101: time change causes conflict with CS 1110 LEC 001', 'ENGL 2650 SEM 101: time change causes conflict with CS 1110 LEC 001', 'HAHA 1010 LEC 101: time change causes conflict with FAKE 0000 SEM 000', 'ENGL 2650 SEM 101: time changed from TR 11:25am-12:40pm to TR 9:05am-9:55am', 'ENGL 2650 SEM 101: time change causes conflict with INFO 2450 LEC 001'}
+ but correct answer should be: 
+{'ARCH 1120 STU 520: time changed from TBA to TR 10:10am-11:00am', 'HAHA 1010 LEC 101: time changed from TR 1:00pm-1:55pm to TR 9:05am-1:50pm', 'ENGL 2650 SEM 101: time changed from TR 11:25am-12:40pm to TR 9:05am-9:55am'}. 0.5 points deducted.
+Finished course.changeTime function
+
+1. schedule.add function           16   out of 16
+2. studentschedule.add function    27   out of 27
+3. course.getTime function         14   out of 14
+4. course.conflictsWith function   20   out of 22
+5. course.changeTime function       7.5 out of 10
+-----------------------------------------------
+Total                              84.5 out of 89
+Deductions:                        
+Total                                   out of 89
