@@ -1,0 +1,66 @@
+Hi, this is Sean Wolf, looking at your Assignment A5.
+
+At the end of this document is the output of our testing program and a table indicating
+the points for each part. This grading feedback is designed to help you understand 
+how you can improve your assignment. The final score will be out of 80 points.
+
+If you have any questions, feel free to email me at srw239@cornell.edu.
+
+Final Score: 73/80
+
+Style (2/3):
+------------
+
+Deduction (1 point):
+Did not remove all pass statements (See function college_named() in sd_utilities_dict.py)
+
+Answers to code design Qs (11/15):
+--------------------------------
+
+Deduction (4 points):
+Question 3: There should be no advantage to using a while loop in the function college_named(),
+since the for loop stops executing once it finds the college with name n due to the return statement. It appears as though you answered the question in regards to the function process_line()
+instead of college_named().
+
+
+Functionality (60/62):
+--------------------
+
+process_line_list (22/22)
+
+process_line_dict (18/20)
+
+Deduction (2 points):
+Checked ‘if senrolled_cn not in cdict’ within the for-loop 'for outcome in outcomes'.
+This should be checked outside of the for-loop, to account for the potential additions of
+later outcomes into cdict.
+
+
+college_named (10/10)
+
+menu_listing (10/10)
+
+===========
+Start grading of a5.py
+
+Max points for process_line_list function: 14
+Finished process_line_list function
+
+Max points for process_line_dict function: 12
+  test4.18 student code returns: False but correct answer should be: True. 1 point deducted.
+Finished process_line_dict function
+
+Max points for menu_listing function: 6
+Finished menu_listing function
+
+Max points for college_named function: 12
+Finished college_named function
+
+1. process_line_list function   14 out of 14
+2. process_line_dict function   11 out of 12
+3. menu_listing function         6 out of  6
+4. college_named function       12 out of 12
+--------------------------------------------
+Total                           43 out of 44
+Deductions:                     
+Total                              out of 44
