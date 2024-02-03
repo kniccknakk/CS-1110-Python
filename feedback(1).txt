@@ -1,0 +1,47 @@
+Hi, this is Se Yun Kim, looking at your Assignment A1.
+
+At the end of this document is the output of our testing program and a table indicating
+the points for each part. This grading feedback is designed to help you understand
+how you can improve your assignment. The final score will be out of 10 points.
+
+Functionality
+-------------
+na323  -
+
+Functionality all passed  nice job!
+
+
+Testing
+-------
+test cases - from_to
+
+Think about a situation when start_str and end_str
+are next to each other. Otherwise nice job
+
+additional comment -
+make sure that  policy policy_acknowledgment is also within 80 characters   
+
+
+===========
+Start grading of a1.py
+
+Max points for make_url function: 1
+Finished make_url function
+
+Max points for tag_endi function: 1
+Finished tag_endi function
+
+Max points for from_to function: 1
+Finished from_to function
+
+Max points for report_section function: 1
+Finished report_section function
+
+1. make_url function         1 out of 1
+2. tag_endi function         1 out of 1
+3. from_to function          1 out of 1
+4. report_section function   1 out of 1
+-----------------------------------------
+Total                        4 out of 4
+Deductions:
+Total                          out of 4
