@@ -1,0 +1,33 @@
+Hi, this is Alyssa Zhang, looking at your Assignment A4.
+
+At the end of this document is the output of our testing program and a table indicating
+the points for each part. This grading feedback is designed to help you understand 
+how you can improve your assignment. The final score will be out of 69 points.
+
+Good job on this assignment! Perfect score, as far as I can tell.
+
+Functionality
+-------------
+
+Testing
+-------
+
+===========
+Start grading of a4.py
+
+Max points for num_user_posts function: 12
+Finished num_user_posts function
+
+Max points for user_paths function: 4
+Finished user_paths function
+
+Max points for bnf_starts_here function: 14
+Finished bnf_starts_here function
+
+1. num_user_posts function    12 out of 12
+2. user_paths function         4 out of  4
+3. bnf_starts_here function   14 out of 14
+------------------------------------------
+Total                         30 out of 30
+Deductions:                   
+Total                         69 out of 69
