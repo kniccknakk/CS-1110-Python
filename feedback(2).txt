@@ -1,0 +1,32 @@
+Hi, this is Chris Desir (ckd38@), looking at your Assignment A3.
+
+At the end of this document is the output of our testing program and a table indicating
+the points for each part. This grading feedback is designed to help you understand
+how you can improve your assignment. The final score will be out of 10 points.
+
+Nice job!
+
+===========
+Start grading of a3.py
+
+Max points for showdown_time function: 30
+Finished showdown_time function
+
+Max points for menu_listing function: 25
+Finished menu_listing function
+
+Max points for was_accepted function: 15
+Finished was_accepted function
+
+Max points for college_named function: 23
+Finished college_named function
+
+1. showdown_time function   30 out of 30
+2. menu_listing function    25 out of 25
+3. was_accepted function    15 out of 15
+4. college_named function   23 out of 23
+5. Other                     3 out of 3
+6. Style                     2 out of 2
+7. Testcase questions        2 out of 2
+----------------------------------------
+Total                      100 out of 100

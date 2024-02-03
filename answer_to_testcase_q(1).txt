@@ -1,0 +1,19 @@
+# student-test-answer.txt
+# na323, dw483
+# NONE
+# 20210324
+# Skeleton by Prof. Lillian Lee (LJL2), Mar 19, 2021
+
+Give another two college numbers, separated with spaces
+(or 'q' to quit): 1 2
+
+FYI, here is the internal showdown data
+A vs. D
+accepted at both: 11, 10, 20
+accepted at both, enrolled at A: 11, 20
+accepted at both, enrolled at D: 10
+A vs. D
+Number of students accepted at both: 3
+Number of such students who enrolled at one of them: 3
+% who chose A over D: 66.67%
+% who chose D over A: 33.33%
